@@ -1,0 +1,445 @@
+{
+  "@id": "https://w3id.org/dats/schema/dataset_schema.json",
+  "@type": "Dataset",
+  "title": "PREVENT-AD open data in BIDS format",
+  "description": "Longitudinal study of pre-symptomatic Alzheimer's Disease",
+  "dates": [
+    {
+      "@id": "https://w3id.org/dats/schema/date_info_schema.json",
+      "@type": "Date",
+      "date": "2020-05-30",
+      "type": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "Release Date"
+      }
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/date_info_schema.json",
+      "@type": "Date",
+      "date": "2011-11-01",
+      "type": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "Start Date"
+      }
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/date_info_schema.json",
+      "@type": "Date",
+      "date": "2017-11-27",
+      "type": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "End Date"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "StoP-AD Center - Douglas Mental Health University Institute"
+    }
+  ],
+  "storedIn": {
+    "name": "https://openpreventad.loris.ca/"
+  },
+  "types": [
+    {
+      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
+      "@type": "DataType",
+      "information": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "MRI"
+      }
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
+      "@type": "DataType",
+      "information": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "Basic Demographics"
+      }
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/data_type_schema.json",
+      "@type": "DataType",
+      "information": {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "BIDS"
+      }
+    }
+  ],
+  "version": "1.1",
+  "availability": "available",
+  "privacy": "Open Access",
+  "licenses": [
+    {
+      "@id": "https://w3id.org/dats/schema/license_schema.json",
+      "@type": "License",
+      "name": "https://openpreventad.loris.ca/images/Open_PREVENT-AD_Terms_of_Use.png",
+      "extraProperties": [
+	{
+          "category": "dataUsesConditions",
+           "values": [
+            {
+              "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+              "@type": "Annotation",
+              "value": "Data used in preparation of this article were obtained from the Pre-symptomatic Evaluation of Novel or Experimental Treatments for Alzheimer's Disease (PREVENT-AD) program. (Breitner et al., 2016 & Tremblay-Mercier, Madjar, et al., 2019)"
+            }
+	  ]
+	}
+      ]
+    }
+  ],
+  "distributions": [
+    {
+    "@id": "http://json-schema.org/draft-04/schema",
+    "@type": "DatasetDistribution",
+    "formats": [
+      "BIDS",
+      "NIfTI",
+      "TSV",
+      "JSON"
+    ],
+    "size" : 240,
+    "unit" : {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "GB"
+    },
+    "access": {
+      "landingPage": "https://openpreventad.loris.ca",
+      "authorizations": [
+        {
+          "value": "private"
+        }
+      ]
+    },
+    "storedIn": {
+        "name": "https://openpreventad.loris.ca"
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+    "@id": "https://w3id.org/dats/schema/publication_schema.json",
+    "@type": "Publication",
+    "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+    "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+    "authors": [
+      {
+        "@id": "https://w3id.org/dats/schema/person_schema.json",
+        "@type": "Person",
+        "fullName": "John C.S. Breitner",
+        "firstName": "John",
+        "middleInitial": "C.S.",
+        "lastName": "Breitner",
+        "affiliations": [
+          {
+            "@id": "https://w3id.org/dats/schema/organization_schema.json",
+            "@type": "Organization",
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "@id": "https://w3id.org/dats/schema/person_schema.json",
+        "@type": "Person",
+        "fullName": "Judes Poirier",
+        "lastName": "Poirier",
+        "affiliations": [
+          {
+            "@id": "https://w3id.org/dats/schema/organization_schema.json",
+            "@type": "Organization",
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "@id": "https://w3id.org/dats/schema/person_schema.json",
+        "@type": "Person",
+        "fullName": "Pierre E. Etienne",
+        "firstName": "Pierre",
+        "middleInitial": "E.",
+        "lastName": "Etienne",
+        "affiliations": [
+          {
+            "@id": "https://w3id.org/dats/schema/organization_schema.json",
+            "@type": "Organization",
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "@id": "https://w3id.org/dats/schema/person_schema.json",
+        "@type": "Person",
+        "fullName": "Jeannie M Leoutsakos",
+        "firstName": "Jeannie",
+        "middleInitial": "M",
+        "lastName": "Leoutsakos",
+        "affiliations": [
+          {
+            "@id": "https://w3id.org/dats/schema/organization_schema.json",
+            "@type": "Organization",
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      }
+    ],
+    "dates": [
+      {
+        "@id": "https://w3id.org/dats/schema/date_info_schema.json",
+        "@type": "Date",
+        "date": "2016-09-01",
+        "type": 
+          {
+            "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+            "@type": "Annotation",
+            "value": "Publication Date"
+          }
+      }
+    ],
+    "identifier": {
+      "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
+      "@type": "Identifier",
+      "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+      "identifierSource": "International DOI Foundation"
+    }
+  }
+],
+  "isAbout": [
+    {
+      "@id": "https://w3id.org/dats/schema/disease_schema.json",
+      "@type": "Disease",
+      "name": "Alzheimer's",
+      "extraProperties": [
+	{
+	     "category": "diseaseStatus",
+	     "values": [
+		  {
+	  	        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+		        "@type": "Annotation",
+		        "value": "presymptomatic phase of Alzheimer's Disease"
+		  }
+	     ]
+	}
+      ]
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
+      "@type": "BiologicalEntity",
+      "name": "Older adults human"
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "@id": "https://w3id.org/dats/schema/place_schema.json",
+      "@type": "Place",
+      "name": "Québec (province)",
+      "description": "Province of Québec, Canada"
+    }
+  ],
+  "aggregation": "instance of dataset",
+  "dimensions": [
+    {
+
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "Age at MRI"
+      },
+      "description": "Age in months at the time of the MRI session"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+          "@type": "Annotation",
+          "value": "Gender"
+      },
+      "description": "Sex of the participant (male or female)"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+          "@type": "Annotation",
+          "value": "Test Language"
+      },
+      "description": "Language in which the participant choose to perform the tests in the research project"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+        "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+        "@type": "Annotation",
+        "value": "Handedness Interpretation"
+      },
+      "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+          "@type": "Annotation",
+          "value": "Handedness Score"
+      },
+      "description": "The Edinburgh Handedness Inventory test score results"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+          "@type": "Annotation",
+          "value": "Structural MRI"
+      },
+      "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/dimension_schema.json",
+      "@type": "Dimension",
+      "name" : {
+          "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+          "@type": "Annotation",
+          "value": "Functional MRI"
+      },
+      "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
+    }
+  ],
+  "acknowledges" : [ 
+    {
+      "@id": "https://w3id.org/dats/schema/grant_schema.json",
+      "@type": "Grant",
+      "name": "Grants",
+      "funders": [
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "Fonds de Recheche du Québec - Santé",
+          "abbreviation": "FRQ-S"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "McGill University"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "Pfizer Canada"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "Douglas Hospital Researcher Centre and Foundation"
+        },  
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "Fondation Lévesque"
+        },
+        {
+          "@id": "https://w3id.org/dats/schema/organization_schema.json",
+          "@type": "Organization",
+          "name": "Canada Fund for Innovation",
+          "abbreviation": "CFI"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "Prevention"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "Alzheimer's disease"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "Structural MRI"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "Functional MRI"
+    },
+    {
+      "@id": "https://w3id.org/dats/schema/annotation_schema.json",
+      "@type": "Annotation",
+      "value": "Longitudinal"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "232"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "41,523"
+        }
+      ]
+    },
+    {
+      "category": "Timepoint description",
+      "values": [
+        {
+          "value": "EL=eligibility, EN=enrolment, BL=baseline, FU=follow-up (12M, 24M, 36M, 48M)"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Jennifer Tremblay-Mercier, Research Coordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+        }
+      ]
+    },
+    {
+      "category": "derivedFrom",
+	  "values": [
+        {
+          "value": "https://github.com/conpdatasets/preventad-open/tree/acee97ba0ec6bb2398d69d519dd4be1cf710ac48"
+        }
+      ] 
+    }
+  ]
+}
