@@ -3,6 +3,12 @@
   "@type": "Dataset",
   "title": "PREVENT-AD open data in BIDS format",
   "description": "Longitudinal study of pre-symptomatic Alzheimer's Disease",
+  "identifier": {
+    "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
+    "@type": "Identifier",
+    "identifier": "https://doi.org/10.5281/zenodo.3875552",
+    "identifierSource": "Zenodo DOI"
+  },
   "dates": [
     {
       "@id": "https://w3id.org/dats/schema/date_info_schema.json",
