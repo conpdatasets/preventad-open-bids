@@ -443,8 +443,15 @@
       "category": "derivedFrom",
 	  "values": [
         {
-          "parent_dataset_id": "preventad-open",
           "value": "https://github.com/conpdatasets/preventad-open/tree/acee97ba0ec6bb2398d69d519dd4be1cf710ac48"
+        }
+      ] 
+    },
+    {
+      "category": "parent_dataset_id",
+	  "values": [
+        {
+          "value": "preventad-open"
         }
       ] 
     }
