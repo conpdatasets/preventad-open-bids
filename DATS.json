@@ -303,13 +303,34 @@
       ]
     },
     {
-      "category": "origin",
+      "category": "origin_consortium",
       "values": [
         {
-          "consortium": "PREVENT-AD Research Group",
-          "city": "Montreal",
-          "province": "Quebec",
-          "country": "Canada"
+          "value": "PREVENT-AD Research Group"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
         }
       ]
     },
