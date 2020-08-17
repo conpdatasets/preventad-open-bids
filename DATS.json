@@ -13,6 +13,11 @@
       }
     },
     {
+      "date": "2020-08-06",
+      "type": {
+      "value": "Last Update Date"
+    },
+    {
       "date": "2011-11-01",
       "type": {
         "value": "Start Date"
@@ -50,7 +55,7 @@
       }
     }
   ],
-  "version": "1.1",
+  "version": "2.0",
   "availability": "available",
   "privacy": "Open Access",
   "licenses": [
@@ -76,7 +81,7 @@
       "TSV",
       "JSON"
     ],
-    "size" : 240,
+    "size" : 255,
     "unit" : {
       "value": "GB"
     },
@@ -274,7 +279,7 @@
       "category": "subjects",
       "values": [
         {
-          "value": "232"
+          "value": "308"
         }
       ]
     },
@@ -282,7 +287,7 @@
       "category": "files",
       "values": [
         {
-          "value": "41,523"
+          "value": "53061"
         }
       ]
     },
@@ -354,7 +359,7 @@
       "category": "derivedFrom",
 	  "values": [
         {
-          "value": "https://github.com/conpdatasets/preventad-open/tree/acee97ba0ec6bb2398d69d519dd4be1cf710ac48"
+          "value": "https://github.com/conpdatasets/preventad-open/tree/17dd9742a89e60f720f8276d79d917c54dd20695"
         }
       ]
     },
