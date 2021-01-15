@@ -9,25 +9,25 @@
     {
       "date": "2020-05-30",
       "type": {
-        "value": "Release Date"
+        "value": "release date"
       }
     },
     {
       "date": "2020-08-06",
       "type": {
-        "value": "Last Update Date"
+        "value": "last updated date"
       }
     },
     {
       "date": "2011-11-01",
       "type": {
-        "value": "Start Date"
+        "value": "start date"
       }
     },
     {
       "date": "2017-11-27",
       "type": {
-        "value": "End Date"
+        "value": "end date"
       }
     }
   ],
@@ -152,7 +152,7 @@
         "date": "2016-09-01",
         "type":
           {
-            "value": "Publication Date"
+            "value": "publication date"
           }
       }
     ],
