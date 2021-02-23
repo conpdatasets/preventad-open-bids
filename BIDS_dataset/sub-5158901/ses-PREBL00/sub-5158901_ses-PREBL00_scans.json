@@ -1,0 +1,6 @@
+{
+   "candidate_age_at_acquisition" : {
+      "Units" : "Months",
+      "Description" : "candidate age in months at the time of acquisition"
+   }
+}
