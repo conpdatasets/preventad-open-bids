@@ -1,0 +1,10 @@
+{
+   "BIDSVersion" : "1.1.1 & BEP0001",
+   "LORISScriptVersion" : "0.1",
+   "LORISReleaseVersion" : "20.1.0",
+   "Authors" : [
+      "StoP-AD Center - Douglas Mental Health University Institute"
+   ],
+   "Name" : "PREVENT-AD_open_release_bids",
+   "HowToAcknowledge" : "I will state the source of data and cite the primary publication of PREVENT-AD in\nthe methods section of my manuscripts by including language similar to the\nfollowing: 'Data used in preparation of this article were obtained from the\nPre-symptomatic Evaluation of Novel or Experimental Treatments for Alzheimer's\nDisease (PREVENT-AD) program. (Breitner et al., 2016)'.\n"
+}

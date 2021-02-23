@@ -1,0 +1,27 @@
+{
+   "handedness_interpretation" : {
+      "Description" : "participant's handedness interpretation from the Edinburgh Handedness Inventory",
+      "Levels" : {
+         "Ambidextrous" : "Ambidextrous",
+         "Left-handed" : "Left-handed",
+         "Right-handed" : "Right-handed"
+      }
+   },
+   "test_language" : {
+      "Description" : "test issued in (language)",
+      "Levels" : {
+         "English" : "English",
+         "French" : "French"
+      }
+   },
+   "handedness_score" : {
+      "Description" : "participant's handedness score from the Edinburgh Handedness Inventory"
+   },
+   "sex" : {
+      "Description" : "sex of the participant",
+      "Levels" : {
+         "Male" : "Male",
+         "Female" : "Female"
+      }
+   }
+}
