@@ -173,8 +173,8 @@
     },
     {
       "identifier": {
-        "identifier": "9606",
-        "identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
+        "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+		"identifierSource": "NCBI Taxonomy Database"
       },
       "name":"Homo sapiens"
     },
