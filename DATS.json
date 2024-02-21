@@ -356,6 +356,14 @@
       ]
     },
     {
+      "category": "registrationPage",
+      "values": [
+        {
+          "value": "https://openreventad.loris.ca/login/request-account/"
+        }
+      ]
+    },
+    {
       "category": "derivedFrom",
 	  "values": [
         {
