@@ -359,7 +359,7 @@
       "category": "registrationPage",
       "values": [
         {
-          "value": "https://openreventad.loris.ca/login/request-account/"
+          "value": "https://openpreventad.loris.ca/login/request-account/"
         }
       ]
     },
