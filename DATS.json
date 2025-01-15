@@ -1,0 +1,385 @@
+{
+  "title": "PREVENT-AD open data in BIDS format",
+  "description": "Longitudinal study of pre-symptomatic Alzheimer's Disease",
+  "identifier": {
+    "identifier": "https://doi.org/10.5281/zenodo.3991996",
+    "identifierSource": "Zenodo DOI"
+  },
+  "dates": [
+    {
+      "date": "2020-05-30",
+      "type": {
+        "value": "release date"
+      }
+    },
+    {
+      "date": "2021-02-12",
+      "type": {
+        "value": "last update date"
+      }
+    },
+    {
+      "date": "2011-11-01",
+      "type": {
+        "value": "start date"
+      }
+    },
+    {
+      "date": "2017-11-27",
+      "type": {
+        "value": "end date"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "StoP-AD Center - Douglas Mental Health University Institute"
+    }
+  ],
+  "storedIn": {
+    "name": "https://openpreventad.loris.ca/"
+  },
+  "types": [
+    {
+      "information": {
+        "value": "MRI",
+		"valueIRI": "http://uri.interlex.org/ilx_0779748"
+      }
+    },
+    {
+      "information": {
+        "value": "basic demographics",
+		"valueIRI": "http://uri.interlex.org/ilx_0103016"
+      }
+    }
+  ],
+  "version": "2.1",
+  "availability": "available",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "https://openpreventad.loris.ca/images/Open_PREVENT-AD_Terms_of_Use.png",
+      "extraProperties": [
+	{
+          "category": "dataUsesConditions",
+           "values": [
+            {
+              "value": "Data used in preparation of this article were obtained from the Pre-symptomatic Evaluation of Novel or Experimental Treatments for Alzheimer's Disease (PREVENT-AD) program. (Breitner et al., 2016 & Tremblay-Mercier, Madjar, et al., 2019)"
+            }
+	  ]
+	}
+      ]
+    }
+  ],
+  "distributions": [
+    {
+    "formats": [
+      "BIDS",
+      "NIfTI",
+      "TSV",
+      "JSON"
+    ],
+    "size" : 277,
+    "unit" : {
+      "value": "GB"
+    },
+    "access": {
+      "landingPage": "https://www.centre-stopad.com/en/",
+      "authorizations": [
+        {
+          "value": "private"
+        }
+      ]
+    },
+    "storedIn": {
+        "name": "https://openpreventad.loris.ca"
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+    "title": "Rationale and Structure for a new Centre for Studies on Prevention of Alzheimer's Disease (StoP-AD)",
+    "publicationVenue": "The Journal of Prevention of Alzheimer's Disease - JPAD Volume 3, Number 4, 2016",
+    "authors": [
+      {
+        "fullName": "John C.S. Breitner",
+        "firstName": "John",
+        "middleInitial": "C.S.",
+        "lastName": "Breitner",
+        "affiliations": [
+          {
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "fullName": "Judes Poirier",
+        "lastName": "Poirier",
+        "affiliations": [
+          {
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "fullName": "Pierre E. Etienne",
+        "firstName": "Pierre",
+        "middleInitial": "E.",
+        "lastName": "Etienne",
+        "affiliations": [
+          {
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      },
+      {
+        "fullName": "Jeannie M Leoutsakos",
+        "firstName": "Jeannie",
+        "middleInitial": "M",
+        "lastName": "Leoutsakos",
+        "affiliations": [
+          {
+            "name": "PREVENT-AD Research Group"
+          }
+        ]
+      }
+    ],
+    "dates": [
+      {
+        "date": "2016-09-01",
+        "type":
+          {
+            "value": "publication date"
+          }
+      }
+    ],
+    "identifier": {
+      "identifier": "http://dx.doi.org/10.14283/jpad.2016.121",
+      "identifierSource": "International DOI Foundation"
+    }
+  }
+],
+  "isAbout": [
+    {
+      "name": "Alzheimer's disease",
+      "extraProperties": [
+	{
+	     "category": "diseaseStatus",
+	     "values": [
+		  {
+		        "value": "presymptomatic phase of Alzheimer's Disease"
+		  }
+	     ]
+	}
+      ]
+    },
+    {
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606",
+		"identifierSource": "NCBI Taxonomy Database"
+      },
+      "name":"Homo sapiens"
+    },
+    {
+      "name": "older adult"
+    }
+  ],
+  "spatialCoverage": [
+    {
+      "name": "Québec (province)",
+      "description": "Province of Québec, Canada"
+    }
+  ],
+  "aggregation": "instance of dataset",
+  "dimensions": [
+    {
+      "name" : {
+        "value": "age at MRI"
+      },
+      "description": "Age in months at the time of the MRI session"
+    },
+    {
+      "name" : {
+          "value": "gender"
+      },
+      "description": "Sex of the participant (male or female)"
+    },
+    {
+      "name" : {
+          "value": "test language"
+      },
+      "description": "Language in which the participant choose to perform the tests in the research project"
+    },
+    {
+      "name" : {
+        "value": "handedness interpretation"
+      },
+      "description": "The Edinburgh Handedness Inventory test result interpretation establishing hand dominance (right-handed, left-handed or ambidextrous)"
+    },
+    {
+      "name" : {
+          "value": "handedness score"
+      },
+      "description": "The Edinburgh Handedness Inventory test score results"
+    },
+    {
+      "name" : {
+          "value": "structural MRI"
+      },
+      "description": "T1W, FLAIR, T2*, multi-echo T2*, T2W, MP2RAGE, DWI 65 directions"
+    },
+    {
+      "name" : {
+          "value": "functional MRI"
+      },
+      "description": "single-echo pCASL, resting BOLD, encoding/retrieval tasks BOLD"
+    }
+  ],
+  "acknowledges" : [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Fonds de Recherche du Québec - Santé",
+          "abbreviation": "FRQ-S"
+        },
+        {
+          "name": "McGill University"
+        },
+        {
+          "name": "Pfizer Canada"
+        },
+        {
+          "name": "Douglas Hospital Research Centre and Foundation"
+        },
+        {
+          "name": "Fondation Lévesque"
+        },
+        {
+          "name": "Canada Fund for Innovation",
+          "abbreviation": "CFI"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "prevention"
+    },
+    {
+      "value": "structural MRI"
+    },
+    {
+      "value": "functional MRI"
+    },
+    {
+      "value": "longitudinal"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "308"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "53061"
+        }
+      ]
+    },
+    {
+      "category": "Timepoint description",
+      "values": [
+        {
+          "value": "EL=eligibility, EN=enrolment, BL=baseline, FU=follow-up (12M, 24M, 36M, 48M)"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "category": "origin_consortium",
+      "values": [
+        {
+          "value": "PREVENT-AD Research Group"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Jennifer Tremblay-Mercier, Research Coordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+        }
+      ]
+    },
+    {
+      "category": "registrationPage",
+      "values": [
+        {
+          "value": "https://openreventad.loris.ca/login/request-account/"
+        }
+      ]
+    },
+    {
+      "category": "derivedFrom",
+	  "values": [
+        {
+          "value": "https://github.com/conpdatasets/preventad-open"
+        }
+      ]
+    },
+    {
+      "category": "parent_dataset_id",
+	  "values": [
+        {
+          "value": "preventad-open"
+        }
+      ]
+    }
+  ]
+}
